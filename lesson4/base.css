@@ -1,0 +1,121 @@
+@charset "UTF-8";
+/* reset */
+body, h1, h2, h3, h4, h5, h6, p, address,
+ul, ol, li, dl, dt, dd, img, form, table, tr, th, td {
+  margin: 0;
+  padding: 0;
+  border: none;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 100%;
+  text-align: left;
+  list-style-type: none;
+  border-collapse: collapse;
+}
+
+textarea { font-size: 100%; vertical-align:middle;}
+img { border-style: none; display: block; }
+hr { display: none; }
+em{font-style: normal}
+input{line-height:auto;vertical-align:middle;}
+strong.more{color:#c30}
+a{text-decoration: none;}
+
+html {
+
+}
+
+body {
+  font-family:'ヒラギノ角ゴ Pro W3','Hiragino Kaku Gothic Pro','メイリオ',Meiryo,'ＭＳ Ｐゴシック',sans-serif;
+}
+
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -o-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+/* 上の部分は気にせずここから書く */
+
+.green {
+	position: relative;
+	width: 600px;
+	height: 400px;
+	background: #56C500;
+  margin: 5px 10px 0px 350px;
+}
+
+.Cgreen {
+  display: flex;
+  flex-direction: column;
+}
+
+.item{  
+  background-color:white;
+  position: relative;
+  height: 20px;
+  width: 20px;
+  top: 255px;
+  margin: 1px 10px 2px 405px;
+  padding: 20px 20px 20px 20px;
+  border: 2px solid black;
+  z-index: 20;
+}
+
+.Cblue {
+  display: flex;
+  flex-direction:row;
+}
+
+.blue {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	width: 400px;
+	background:blue;
+
+  .item2{  
+    background-color:white;
+    position: relative;
+    height: 20px;
+    width: 20px;
+    top: 2px;
+    left: 260px;
+    margin: 0px 2px 0px 0px;
+    padding: 20px 20px 20px 20px;
+    border: 2px solid black;
+    z-index: 20;
+    align-self: first baseline;
+  }
+}
+
+.Cred {
+  display: flex;
+  flex-direction:row;
+}
+.red {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	width: 200px;
+	background:red;
+}
+
+.item3{  
+  background-color:white;
+  position: relative;
+  height: 20px;
+  width: 20px;
+  top: 180px;
+  left: 32px;
+  margin: 0px 2px 0px 0px;
+  padding: 20px 20px 20px 20px;
+  border: 2px solid black;
+  z-index: 20;
+  align-self: first baseline;
+}
+
+
+
