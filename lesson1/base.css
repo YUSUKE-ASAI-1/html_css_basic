@@ -36,18 +36,22 @@ body {
   -ms-box-sizing: border-box;
   box-sizing: border-box;
 }
+
+html{font-size:100%}
+
 .a {
   color: white;
   font-size: 30px;
   background-color:black;
-  margin: 7px 606px 0px 4px;
-  padding: 45px 320px 536px 4px;
+  margin: 0.5% 60% 0% 0.5%;
+  padding: 3% 20% 50% 0%;
 }
-.b {
+
+.b{
   color:black;
   font-size: 30px;
   background-color:white;
-  margin: 0px 606px 16px 4px;
-  padding: 42px 320px 532px 0px;
-  border: 2px solid black;
+  margin: 0% 60% 2% 0.5%;
+  padding: 3% 20% 50% 0%;
+  border: 1px solid black;
 }
